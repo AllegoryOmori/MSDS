@@ -52,21 +52,21 @@ img{
     width: 115px;
     height: 50px;
 }
-h1{
-    font-size: 6vh;    
+h1{    
     color: whitesmoke;
 }
 .cool {
-    line-height: auto;
+    
         animation: cool;
         animation-timing-function: ease;
         animation-duration: 1.8s;
         animation-iteration-count: 1;
         text-align: center;
-        margin-top: 75px;
+        margin-top: 50px;
         margin-bottom: 0px; 
-        font-size: 5vw;
-    }
+        font-size: 2vw;
+        color: whitesmoke;
+}
     
     @keyframes cool{
         from {margin-left: 100%;}
@@ -95,6 +95,7 @@ h1{
         
     }
     .fr{
+        line-height: auto;
         animation: fr;
         animation-timing-function: ease;
         animation-duration: 1.8s;
@@ -120,7 +121,7 @@ h1{
         font-size: 50px;
         margin-bottom: 20px ;
         text-decoration: none; 
-        font-size:3vw;
+        font-size:4vw;
     }
     @keyframes ul{
         from {margin-top: 100%;}
@@ -129,6 +130,8 @@ h1{
     .ullist2 a{
         text-decoration: none; 
         color: white; 
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .sucks{
         display: flex;
