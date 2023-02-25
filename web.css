@@ -30,7 +30,6 @@ nav .logo p:hover{
 }
 nav li{
     display: inline-block;
-   
     list-style: none;
 }
 li{
@@ -105,4 +104,38 @@ h1{
     @keyframes fr{
         from {margin-left: 100%;}
         to {margin-left: 0%;}
+    }
+    .ullist2
+    {
+        animation: ul;
+        animation-timing-function: ease;
+        animation-duration: 1.8s;
+        animation-iteration-count: 1;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        margin-bottom: 20px ;
+        text-decoration: none; 
+        color: white;
+    }
+    @keyframes ul{
+        from {margin-top: 100%;}
+        to {margin-top: 0%;}
+    }
+    .ullist2 a{
+        text-decoration: none; 
+        color: white;   
+    }
+    .sucks{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        text-align: center;
+        margin-top: 350px; 
+        padding: 0px 50px;
+        gap: 25px;
+    }
+    .ploopy{
+        float: right; 
+        padding: 0px 50px;
     }
