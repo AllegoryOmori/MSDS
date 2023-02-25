@@ -1,3 +1,4 @@
+
 body{  
     background: rgb(3,55,71);
 }
@@ -5,6 +6,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav{
     width: 100%;
@@ -51,11 +53,11 @@ img{
     height: 50px;
 }
 h1{
-    font-size: 55px;
+    font-size: 6vh;    
     color: whitesmoke;
 }
 .cool {
-    line-height: 75px;
+    line-height: auto;
         animation: cool;
         animation-timing-function: ease;
         animation-duration: 1.8s;
@@ -63,6 +65,7 @@ h1{
         text-align: center;
         margin-top: 75px;
         margin-bottom: 0px; 
+        font-size: 5vw;
     }
     
     @keyframes cool{
@@ -70,17 +73,17 @@ h1{
         to {margin-left: 0%;}
     }
     .coolp {
-        line-height: 70px;
+        line-height: auto;
         animation: coolp;
         animation-timing-function: ease;
         animation-duration: 1.8s;
         animation-iteration-count: 1;
         color: whitesmoke;
-        font-size: 40px;
         padding: 0px 100px;
         text-align: center;
         margin-top: 0px;
         margin-bottom: 60px; 
+        font-size:3vw;
     } 
 
     @keyframes coolp{
@@ -92,13 +95,13 @@ h1{
         
     }
     .fr{
-        line-height: 75px;
         animation: fr;
         animation-timing-function: ease;
         animation-duration: 1.8s;
         animation-iteration-count: 1;
-        text-align: center; 
         margin-top: 75px;
+        font-size: 7vw;
+        text-align: center; 
     }
     
     @keyframes fr{
@@ -117,6 +120,7 @@ h1{
         margin-bottom: 20px ;
         text-decoration: none; 
         color: white;
+        font-size:3vw;
     }
     @keyframes ul{
         from {margin-top: 100%;}
@@ -124,7 +128,7 @@ h1{
     }
     .ullist2 a{
         text-decoration: none; 
-        color: white;   
+        color: white; 
     }
     .sucks{
         display: flex;
