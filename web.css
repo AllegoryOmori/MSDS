@@ -78,7 +78,7 @@ h1{
         animation-timing-function: ease;
         animation-duration: 1.8s;
         animation-iteration-count: 1;
-        color: whitesmoke;
+        color: white;
         padding: 0px 100px;
         text-align: center;
         margin-top: 0px;
@@ -102,6 +102,7 @@ h1{
         margin-top: 75px;
         font-size: 7vw;
         text-align: center; 
+        color: whitesmoke;
     }
     
     @keyframes fr{
@@ -119,7 +120,6 @@ h1{
         font-size: 50px;
         margin-bottom: 20px ;
         text-decoration: none; 
-        color: white;
         font-size:3vw;
     }
     @keyframes ul{
