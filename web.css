@@ -1,4 +1,10 @@
-
+@viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.4;
+    max-zoom: 2;
+    user-zoom: fixed;
+    }
 body{  
     background: rgb(3,55,71);
 }
@@ -15,7 +21,7 @@ nav{
     padding: 0px 100px;
     position: relative;
     background:  linear-gradient(#033747,#012733) ;
-     padding: 0px 50px;
+     padding: 0px 4vh;
 }
 nav .logo p{
     font-size: 35px;
@@ -25,6 +31,7 @@ nav .logo p{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     cursor: pointer;
+    padding: 0px 90px;
 }
 nav .logo p:hover{
     color: rgb(29 161 242);
@@ -64,8 +71,9 @@ h1{
         text-align: center;
         margin-top: 50px;
         margin-bottom: 0px; 
-        font-size: 2.5vw;
+        font-size: large;
         color: whitesmoke;
+        font-size: 2.5vw;
 }
     
     @keyframes cool{
@@ -82,8 +90,8 @@ h1{
         padding: 0px 100px;
         text-align: center;
         margin-top: 0px;
-        margin-bottom: 60px; 
-        font-size:3.5vw;
+        margin-bottom: 25px;
+        font-size: 3.5vw;
     } 
 
     @keyframes coolp{
